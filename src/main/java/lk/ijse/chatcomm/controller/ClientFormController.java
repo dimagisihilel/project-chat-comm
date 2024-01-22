@@ -17,4 +17,5 @@ public class ClientFormController {
 
     public void btnEmojiOnAction(ActionEvent actionEvent) {
     }
+
 }
