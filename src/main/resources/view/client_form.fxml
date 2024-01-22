@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="383.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chatcomm.controller.ClientFormController">
+   <children>
+      <ImageView fitHeight="383.0" fitWidth="546.0">
+         <image>
+            <Image url="@../icon/chatbgcoloured.jpeg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="25.0" layoutY="16.0" prefHeight="285.0" prefWidth="495.0" />
+      <TextField layoutX="25.0" layoutY="324.0" prefHeight="39.0" prefWidth="431.0" />
+      <ImageView layoutX="421.0" layoutY="333.0">
+         <image>
+            <Image url="@../icon/camera.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCamera" layoutX="412.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnCameraOnAction" opacity="0.0" prefHeight="39.0" prefWidth="43.0" text="Button" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f9fc" height="39.0" layoutX="465.0" layoutY="324.0" stroke="#fffefe" strokeType="INSIDE" width="54.0" />
+      <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="472.0" layoutY="324.0">
+         <image>
+            <Image url="@../icon/send.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnSend" layoutX="463.0" layoutY="325.0" mnemonicParsing="false" onAction="#btnSendONAction" opacity="0.0" prefHeight="39.0" prefWidth="62.0" text="Button" />
+      <ImageView fitHeight="285.0" fitWidth="495.0" layoutX="25.0" layoutY="17.0">
+         <image>
+            <Image url="@../icon/chatbgwhite.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="377.0" layoutY="332.0">
+         <image>
+            <Image url="@../icon/emoji2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnEmoji" layoutX="365.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnEmojiOnAction" opacity="0.0" prefHeight="39.0" prefWidth="43.0" text="Button" />
+   </children>
+</AnchorPane>
